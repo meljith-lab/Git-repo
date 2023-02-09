@@ -8,3 +8,16 @@
 usage: gitrepo.py [-h] [-n USERNAME] [-t TEMPLATE_PATH] [-o OUTPUT_FILE]
 
 <img width="1192" alt="Screenshot 2023-02-10 at 2 36 10 AM" src="https://user-images.githubusercontent.com/83987293/217939000-bb8f0f42-5837-404d-823d-47a52e3111f6.png">
+
+
+HOW TO INSTALL 
+
+
+```
+git clone https://github.com/meljith-lab/Git-repo.git
+cd Git-repo
+python3 gitrepo.py -n shopify -t /root/nuclei-templates  -o output.txt
+````
+
+
+<img width="1192" alt="Screenshot 2023-02-10 at 2 52 11 AM" src="https://user-images.githubusercontent.com/83987293/217942044-17039500-5dcc-45d4-abfb-0b93a0453824.png">
