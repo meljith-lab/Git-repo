@@ -1,16 +1,8 @@
 
-     .d8888b.  8888888 88888888888      8888888b.  8888888888 8888888b.   .d88888b.  
-d88P  Y88b   888       888          888   Y88b 888        888   Y88b d88P" "Y88b 
-888    888   888       888          888    888 888        888    888 888     888 
-888          888       888          888   d88P 8888888    888   d88P 888     888 
-888  88888   888       888          8888888P"  888        8888888P"  888     888 
-888    888   888       888   888888 888 T88b   888        888        888     888 
-Y88b  d88P   888       888          888  T88b  888        888        Y88b. .d88P 
- "Y8888P88 8888888     888          888   T88b 8888888888 888         "Y88888P" 
 
-The command  line tool  for scanning github repos
-made by @meljith
 
+
+<img width="1192" alt="Screenshot 2023-02-10 at 2 29 31 AM" src="https://user-images.githubusercontent.com/83987293/217937790-e80c0422-4ec0-4f6f-8842-a9c70630aca1.png">
 
     
 usage: 3.py [-h] [-n USERNAME] [-t TEMPLATE_PATH] [-o OUTPUT_FILE]
