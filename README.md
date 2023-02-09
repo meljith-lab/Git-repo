@@ -7,13 +7,4 @@
     
 usage: 3.py [-h] [-n USERNAME] [-t TEMPLATE_PATH] [-o OUTPUT_FILE]
 
-Clone Github Repositories and run nuclei scan
-
-options:
-  -h, --help            show this help message and exit
-  -n USERNAME, --username USERNAME
-                        Github username
-  -t TEMPLATE_PATH, --template_path TEMPLATE_PATH
-                        Path to nuclei templates
-  -o OUTPUT_FILE, --output_file OUTPUT_FILE
-                        Output file name
+<img width="1192" alt="Screenshot 2023-02-10 at 2 36 10 AM" src="https://user-images.githubusercontent.com/83987293/217939000-bb8f0f42-5837-404d-823d-47a52e3111f6.png">
