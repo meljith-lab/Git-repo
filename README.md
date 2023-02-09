@@ -16,6 +16,7 @@ HOW TO INSTALL
 ```
 git clone https://github.com/meljith-lab/Git-repo.git
 cd Git-repo
+chmod u+x gitrepo.py
 python3 gitrepo.py -n shopify -t /root/nuclei-templates  -o output.txt
 ````
 
