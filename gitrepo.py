@@ -13,15 +13,15 @@ d88P  Y88b   888       888          888   Y88b 888        888   Y88b d88P" "Y88b
 Y88b  d88P   888       888          888  T88b  888        888        Y88b. .d88P 
  "Y8888P88 8888888     888          888   T88b 8888888888 888         "Y88888P" 
 
-The command  line tool  for scanning github repos
+This tools is for educational purpose The command  line tool  for scanning github 
 made by @meljith
-
-
     '''
     print(banner)
 
-
 def clone_repo(username, template_path, output_file):
+    if not os.path.exists(username):
+        os.makedirs(username)
+    os.chdir(username)
     os.system(f"curl -s 'https://api.github.com/users/{username}/repos?page=1&per_page=100' | grep \"clone_url\" | awk '{{print $2}}' | sed -e 's/\"//g' -e 's/,//g' | xargs -n1 git clone")
     os.system(f"nuclei -target ./ -t {template_path} -o {output_file}")
 
