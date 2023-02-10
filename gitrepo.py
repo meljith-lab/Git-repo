@@ -14,7 +14,7 @@ d88P  Y88b   888       888          888   Y88b 888        888   Y88b d88P" "Y88b
 Y88b  d88P   888       888          888  T88b  888        888        Y88b. .d88P 
  "Y8888P88 8888888     888          888   T88b 8888888888 888         "Y88888P"
 
-This tools is for educational purpose The command  line tool  for scanning github 
+This  command  line tool  for scanning github  repos through nuclei
 made by @meljith
     '''
     print(banner)
