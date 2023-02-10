@@ -23,7 +23,8 @@ python3 gitrepo.py -n shopify -t /root/nuclei-templates  -o output.txt
 
 <img width="1192" alt="Screenshot 2023-02-10 at 2 52 11 AM" src="https://user-images.githubusercontent.com/83987293/217942044-17039500-5dcc-45d4-abfb-0b93a0453824.png">
 
-![1675859785222](https://user-images.githubusercontent.com/83987293/218049559-d8c17815-c382-46fd-b40f-4cc9f7d2e1ef.jpeg)
+<img width="1020" alt="Screenshot 2023-02-10 at 2 36 02 PM" src="https://user-images.githubusercontent.com/83987293/218049907-563e11f3-43b9-43bd-92b1-ba3499cef209.png">
+
 
 
 This is a command-line tool used to scan GitHub repositories. The tool takes in three arguments: the GitHub username of the user whose repositories you want to scan, the path to the nuclei template, and the output file. The tool first clones all the repositories of the specified user, creates a directory to store them, and then runs a nuclei scan on all the cloned repositories using the specified nuclei template and writes the results to the specified output file. This tool is meant for educational purposes and is made by @meljith.
